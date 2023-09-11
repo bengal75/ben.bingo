@@ -1,5 +1,7 @@
 import { getRandomQuote } from "src/app/quotes";
 
+export const runtime = "edge";
+
 export default function Home() {
   const quote = getRandomQuote();
   return (
